@@ -1,0 +1,56 @@
+/* .weekdays {
+    width: 400px;
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline;
+    width: 100px;
+    color: #666;
+    text-align: center;
+} */
+
+div#calendar {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div#calendar table {
+    flex: 0 0 33.333333%;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+div#calendar_info {
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+div[id^='add'] {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #fff;
+}
+
+div#add_green {
+    background-color: #43fa40;
+}
+
+div#add_yellow {
+    background-color: #fff000;
+}
+
+div#add_orange {
+    background-color: orange;
+}
+
+div#add_red {
+    background-color: red;
+}

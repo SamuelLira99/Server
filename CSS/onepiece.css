@@ -1,0 +1,37 @@
+/* body {
+    /* background-image: url(''); 
+} */
+
+a:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+div#current-episode {
+    background-color: brown;
+    position: relative;
+    padding: 64px;
+    width: 75%;
+    height: 75%;
+}
+
+div#video-player {
+    background-color: blueviolet;
+    position: absolute;
+}
+
+div#ep-list {
+    background-color: crimson;
+    position: absolute;
+    right: 0;
+}
+
+video#vd {
+    /* width: 1280px;
+    height: 720px; */
+    width: 640px;
+    height: 360px;
+}
